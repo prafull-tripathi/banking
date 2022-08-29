@@ -1,18 +1,105 @@
-<div class="bg">
-  <div class="wrapper">
-    <div class="logo">
-      <img src="" alt="" />
+<!-- navbar starts here  -->
+<app-nav-bar></app-nav-bar>
+
+<!-- here content starts here -->
+<div class="container-fluid hero-content">
+  <div class="row align-items-center">
+    <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up">
+      <h1>Money transaction</h1>
+      <p class="lead muted">Easy way to transfer money from any where</p>
+      <h2>Welcome</h2>
+      <br />
+      <br />
+      <a class="get-started" href="/openAccount">Get Started</a>
     </div>
-    <ul class="nav-area">
-      <li><a href="">About</a></li>
-      <li>
-        <button (click)="onLogin()">New User?</button>
-      </li>
-      <li><button (click)="onLogin()">Login</button></li>
-    </ul>
-  </div>
-  <div class="welcome-text">
-    <h1>Welcome to Bank</h1>
-    <a href="/openAccount">Apply Online for Account</a>
+    <div class="col-md-6 col-sm-12 text-center" data-aos="fade-left">
+      <div class="hero-img-div">
+        <img
+          class="hero-img"
+          src="./assets/images/hero-img.png"
+          alt="img-showing-money-transfer"
+        />
+      </div>
+    </div>
+
+    <br />
   </div>
 </div>
+<br />
+
+<
+<main>
+  <!-- Everything except the footer will be inside main tag -->
+  <!-- About: Icons -->
+  <section id="about" class="icons bg-light">
+    <div class="flex-container">
+      <div>
+        <i class="fa fa-university fa-2x"></i>
+        <div>
+          <h3>Net Banking</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam,
+            illum.
+          </p>
+        </div>
+      </div>
+      <div>
+        <i class="fas fa-book-reader fa-2x"></i>
+        <div>
+          <h3>Go Cashless</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam,
+            illum.
+          </p>
+        </div>
+      </div>
+      <div>
+        <i class="fas fa-pencil-alt fa-2x"></i>
+        <div>
+          <h3>Be Secure</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam,
+            illum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About: Solutions  -->
+  <section class="solutions">
+    <div class="column">
+      <div class="column-1">
+        <img src="./assets/img/home/people.jpg" alt="people" />
+      </div>
+    </div>
+    <div class="column">
+      <div class="column-2 bg-primary">
+        <h4>What are you looking for</h4>
+        <h2>We provide banking solutions</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, nulla!
+          Nihil necessitatibus asperiores corrupti enim dolorum, cum unde saepe
+          voluptates voluptatibus quisquam mollitia natus ut quas dolor nam!
+          Eveniet, corporis!
+        </p>
+        <a href="#" class="btn-outline">
+          <i class="fa-solid fa-chevron-right"></i> Read More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- here content ends here -->
+
+  <!-- Footer -->
+  <footer class="footer bg-dark">
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2022 - EdgeLedger Banking</p>
+  </footer>
+</main>

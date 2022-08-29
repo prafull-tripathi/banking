@@ -1,6 +1,6 @@
-<app-nav-bar></app-nav-bar>
+<app-nav-bar-inside></app-nav-bar-inside>
 <div class="dashboardWrapper">
-  <header class="main-head">Dashboard</header>
+  <header class="main-head" id="profile">Dashboard</header>
   <nav class="main-nav">
     <ul>
       <li><a routerLink="/accountStatement">Account Statement</a></li>
@@ -19,17 +19,11 @@
     </ul>
   </nav>
   <article [hidden]="false" class="content">
-    <h1
-      style="
-        margin: 10px;
-        padding: 10px;
-        font-size: 30px;
-        font-weight: 600;
-        color: rgb(72, 189, 188);
-      "
-    >
+    <h1 class="animation" id="slide-in" style="color: green">
       Welcome to Online Banking
     </h1>
+    <hr />
+
     <p
       style="
         margin: 15px;
@@ -62,17 +56,21 @@
       </p>
     </div>
     <div class="cashButtons">
-      <button>Cash Withdrawl</button>
-      <button>Cash Deposit</button>
+      <button id="withdraw">Fund Transfer</button>
+      <button id="deposit">Fund Deposit</button>
     </div>
   </article>
   <aside class="side">
     <ul>
-      <li><a routerLink="/dashboard">Home</a></li>
-      <li><a routerLink="/accountDetails">Account Details</a></li>
-      <li><a routerLink="/accountSummary">Account Summary</a></li>
-      <li><a routerLink="/impsTransfer">Fund Transfer</a></li>
-      <li><a routerLink="/accountStatement">Account Statement</a></li>
+      <li id="image1">
+        <img id="image" src="\assets\images\user.png" alt="profile picture" />
+      </li>
+      <li><a routerLink="/userProfile">Acount Details</a></li>
+      <li><a routerLink="#">Account Summary</a></li>
+      <li><a routerLink="#">Fund Transfer</a></li>
+      <li>
+        <a routerLink="#">Account Statement</a>
+      </li>
     </ul>
   </aside>
 </div>

@@ -21,6 +21,7 @@ import { AccountSummaryComponent } from './components/account-summary/account-su
 import { ValidateTransactionComponent } from './components/validate-transaction/validate-transaction.component';
 import { UserloginComponent } from './components/userlogin/userlogin.component';
 import { HomeComponent } from './components/home/home.component';
+import { NavBarInsideComponent } from './components/nav-bar-inside/nav-bar-inside.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { HomeComponent } from './components/home/home.component';
     AccountSummaryComponent,
     ValidateTransactionComponent,
     UserloginComponent,
-    HomeComponent
+    HomeComponent,
+    NavBarInsideComponent
 
     
   ],
