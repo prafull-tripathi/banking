@@ -276,7 +276,10 @@ h1 {
   width: auto;
   display: block;
 }
-
+h1.logo {
+  font-weight: 400;
+  font-size: 25px;
+}
 @media screen and (max-width: 991px) {
   .menu-icon:checked + label,
   .menu-icon:not(:checked) + label {
